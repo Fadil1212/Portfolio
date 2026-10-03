@@ -20,13 +20,17 @@ const Skills = () => (
       <Skill name="Python" x='-22vw' y='-3vw' />
       <Skill name="SQL" x='-7vw' y='-13vw' />
       <Skill name="Power BI" x='-22vw' y='-16vw' />
-      <Skill name="Pandas / NumPy" x='15vw' y='-14vw' />
+      <Skill name="Pandas" x='15vw' y='-14vw' />
+      <Skill name="NumPy" x='14vw' y='-22vw' />
       <Skill name="PyTorch" x='30vw' y='-5vw' />
+      <Skill name="TensorFlow" x='31vw' y='6vw' />
       <Skill name="Scikit-learn" x='3vw' y='-21vw' />
       <Skill name="Spark" x='-26vw' y='17vw' />
       <Skill name="Kafka" x='19vw' y='18vw' />
       <Skill name="PostgreSQL" x='23vw' y='7vw' />
-      <Skill name="AWS / Docker" x='0vw' y='14vw' />
+      <Skill name="AWS" x='0vw' y='14vw' />
+      <Skill name="Docker" x='8vw' y='21vw' />
+      <Skill name="Git" x='-8vw' y='21vw' />
       <Skill name="LLMs / LangChain" x='-14vw' y='8vw' />
     </div>
   </>
