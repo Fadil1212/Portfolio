@@ -49,12 +49,12 @@ const about = () => {
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 
                 <Layout>
-                    <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 dark:text-purple' />
+                    <AnimatedText text="About Me" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 dark:text-purple' />
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                            <p className='font-normal  text-xl '>
-                         Hello I am Fadil Mohammed, a passionate Data Scientist/Anlyst  with more than of 2 Years experience in leveraging data to drive insights and user-friendly solutions. I firmly believe that data-driven decision-making is crucial in today's fast-paced world. Additionally, I am a committed designer who believes in solving problems and creating intuitive experiences for users. With my skills and passion, I am excited to collaborate on impactful data-driven projects and bring design excellence to your next endeavor. Let's work together to create valuable insights and enjoyable user experiences!</p>
+                         Hi, I’m Fadil Mohammed Surur, an M.S. Data Analytics student at George Washington University with a background in computer science and experience across data analytics, machine learning, and AI. I enjoy transforming complex data into meaningful insights and building practical, end-to-end solutions—from data processing and visualization to predictive modeling and deployment.<br/><br/>My work spans Python, SQL, Power BI, machine learning, deep learning, and big-data technologies such as Spark and Kafka. I’ve built projects involving graph neural networks, real-time data pipelines, business intelligence dashboards, and interactive AI applications. I’m especially interested in using data and AI to solve real-world problems and support better decision-making.</p>
 
 
 
