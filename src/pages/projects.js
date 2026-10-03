@@ -181,7 +181,7 @@ const projects = () => {
                       <div className='col-span-12'>
                           <FeaturedProject
                               title="Adverse Drug Reaction (ADR) Prediction System"
-                              img={project7}
+                              img={adrCover}
                               summary="AI-powered prediction system using a PyTorch Relational Graph Convolutional Network and ensemble machine learning on 500K+ merged drug, indication, and side-effect records, deployed with an interactive Streamlit interface."
                               link="https://github.com/Fadil1212/Adverse-Drug-Reaction-Prediction_System-"
                               github="https://github.com/Fadil1212/Adverse-Drug-Reaction-Prediction_System-"
@@ -191,7 +191,7 @@ const projects = () => {
                       <div className='col-span-6 sm:col-span-12'>
                           <Project
                               title="Real-Time Traffic & Noise Monitoring"
-                              img={project8}
+                              img={noiseCover}
                               link="https://github.com/Fadil1212/Real-Time-Traffic-Noise-Monitoring"
                               github="https://github.com/Fadil1212/Real-Time-Traffic-Noise-Monitoring"
                               type="Big Data & Machine Learning"
@@ -200,7 +200,7 @@ const projects = () => {
                       <div className='col-span-6 sm:col-span-12'>
                           <Project
                               title="Spotify Music Analytics"
-                              img={project9}
+                              img={spotifyCover}
                               link="https://github.com/Fadil1212/Spotify-Analysis"
                               github="https://github.com/Fadil1212/Spotify-Analysis"
                               type="Data Analytics & Power BI"
@@ -209,7 +209,7 @@ const projects = () => {
                       <div className='col-span-6 sm:col-span-12'>
                           <Project
                               title="Hotel Revenue Analytics"
-                              img={project7}
+                              img={hotelCover}
                               link="https://github.com/Fadil1212/Revenue-Insights-in-Hotel-Domain"
                               github="https://github.com/Fadil1212/Revenue-Insights-in-Hotel-Domain"
                               type="Business Intelligence & Power BI"
