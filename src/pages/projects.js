@@ -14,9 +14,10 @@ import project3 from "../../public/images/projects/house.jpg"
 import project4 from "../../public/images/projects/chatbot.jpeg"
 import project5 from "../../public/images/projects/mask.png"
 import project6 from "../../public/images/projects/sign.png"
-import project7 from "../../public/images/projects/crypto-screener-cover-image.jpg"
-import project8 from "../../public/images/projects/crypto-screener-cover-image.jpg"
-import project9 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import adrCover from "../../public/images/projects/Adr.png"
+import noiseCover from "../../public/images/projects/Noise-monitoring.png"
+import spotifyCover from "../../public/images/projects/spotify.png"
+import hotelCover from "../../public/images/projects/hotel.png"
 
 import article5 from "../../public/images/articles/oasis.jpg"
 
