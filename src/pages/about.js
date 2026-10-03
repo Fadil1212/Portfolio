@@ -42,8 +42,8 @@ const about = () => {
     return (
         <>
             <Head>
-                <title>Fadil | About Page</title>
-                <meta name="description" content="any description" />
+                <title>About | Fadil Mohammed Surur</title>
+                <meta name="description" content="Learn about Fadil Mohammed Surur, an M.S. Data Analytics student at George Washington University working across data analytics, machine learning, AI, and big-data systems." />
             </Head>
              <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
@@ -73,22 +73,22 @@ const about = () => {
                         <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl sx:text-4xl'>
-                                    <AnimatedNumbers value={10} />+
+                                    <AnimatedNumbers value={500} />K+
                                 </span >
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                                xl:text-center md:text-lg sm:text-base sx:text-sm' >Satisfied Clients</h2>
+                                xl:text-center md:text-lg sm:text-base sx:text-sm' >Records Analyzed</h2>
                             </div>
                               <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold  md:text-6xl sm:text-5xl sx:text-4xl'>
                                     <AnimatedNumbers value={10} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base sx:text-sm'>Projects Completed</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base sx:text-sm'>Technical Projects</h2>
                             </div>
                               <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold  md:text-6xl sm:text-5xl sx:text-4xl'>
                                     <AnimatedNumbers value={2} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base sx:text-sm'>Years of Experience</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base sx:text-sm'>Years of Research & Industry Experience</h2>
                             </div>
                         </div>
                     </div>
