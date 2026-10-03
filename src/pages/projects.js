@@ -180,6 +180,52 @@ const projects = () => {
                   <div className='grid grid-cols-12 gap-24 gap-y-32  xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0' >
                       <div className='col-span-12'>
                           <FeaturedProject
+                              title="Adverse Drug Reaction (ADR) Prediction System"
+                              img={project7}
+                              summary="AI-powered prediction system using a PyTorch Relational Graph Convolutional Network and ensemble machine learning on 500K+ merged drug, indication, and side-effect records, deployed with an interactive Streamlit interface."
+                              link="https://github.com/Fadil1212/Adverse-Drug-Reaction-Prediction_System-"
+                              github="https://github.com/Fadil1212/Adverse-Drug-Reaction-Prediction_System-"
+                              type="Machine Learning & AI"
+                          />
+                      </div>
+                      <div className='col-span-6 sm:col-span-12'>
+                          <Project
+                              title="Real-Time Traffic & Noise Monitoring"
+                              img={project8}
+                              link="https://github.com/Fadil1212/Real-Time-Traffic-Noise-Monitoring"
+                              github="https://github.com/Fadil1212/Real-Time-Traffic-Noise-Monitoring"
+                              type="Big Data & Machine Learning"
+                          />
+                      </div>
+                      <div className='col-span-6 sm:col-span-12'>
+                          <Project
+                              title="Spotify Music Analytics"
+                              img={project9}
+                              link="https://github.com/Fadil1212/Spotify-Analysis"
+                              github="https://github.com/Fadil1212/Spotify-Analysis"
+                              type="Data Analytics & Power BI"
+                          />
+                      </div>
+                      <div className='col-span-6 sm:col-span-12'>
+                          <Project
+                              title="Hotel Revenue Analytics"
+                              img={project7}
+                              link="https://github.com/Fadil1212/Revenue-Insights-in-Hotel-Domain"
+                              github="https://github.com/Fadil1212/Revenue-Insights-in-Hotel-Domain"
+                              type="Business Intelligence & Power BI"
+                          />
+                      </div>
+                      <div className='col-span-6 sm:col-span-12'>
+                          <Project
+                              title="Cyclistic Bike-Share Case Study"
+                              img={project2}
+                              link="https://github.com/Fadil1212/Google-Data-Analytics-Cyclistic-Case-Study"
+                              github="https://github.com/Fadil1212/Google-Data-Analytics-Cyclistic-Case-Study"
+                              type="Data Analytics Case Study"
+                          />
+                      </div>
+                      <div className='col-span-12'>
+                          <FeaturedProject
                               
                               title="SPID"
                               img={project1}
