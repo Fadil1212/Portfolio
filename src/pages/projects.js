@@ -18,6 +18,7 @@ import adrCover from "../../public/images/projects/Adr.png"
 import noiseCover from "../../public/images/projects/Noise-monitoring.png"
 import spotifyCover from "../../public/images/projects/spotify.png"
 import hotelCover from "../../public/images/projects/hotel.png"
+import gridlensCover from "../../public/images/projects/gridlens-cover.webp"
 
 import article5 from "../../public/images/articles/oasis.jpg"
 
@@ -179,6 +180,16 @@ const projects = () => {
 
 
                   <div className='grid grid-cols-12 gap-24 gap-y-32  xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0' >
+                      <div className='col-span-12'>
+                          <FeaturedProject
+                              title="GridLens — U.S. Grid Intelligence"
+                              img={gridlensCover}
+                              summary="An end-to-end electricity analytics application using live EIA data across 10 U.S. balancing authorities. Compare demand forecasts with transparent holdout metrics, explore state energy mix and prices, and test demand-stress scenarios. Built with Next.js, TypeScript, Recharts, and ridge regression; deployed on Vercel."
+                              link="https://gridlens-blond.vercel.app/"
+                              github="https://github.com/Fadil1212/GridLens"
+                              type="Data Analytics & Demand Forecasting"
+                          />
+                      </div>
                       <div className='col-span-12'>
                           <FeaturedProject
                               title="Adverse Drug Reaction (ADR) Prediction System"
