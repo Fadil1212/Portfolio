@@ -182,16 +182,14 @@ const articles = () => {
           <ul className='grid grid-cols-3 gap-10 lg:gap-8 md:grid-cols-1 md:gap-y-16 '> {/* Added mx-auto and max-w-screen-lg */}
             <FeaturedArticles
              title="Supervised Machine learning: Regression and classification"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Training in supervised machine learning fundamentals, focusing on regression and classification methods and model evaluation."
               
               link="/"
               img={article1}
             />
             <FeaturedArticles
               title="Alx full stack software engineering"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Full-stack software engineering training covering programming fundamentals, collaborative development, and front-end and back-end technologies."
               
               link="/"
               img={article2}
@@ -199,15 +197,13 @@ const articles = () => {
                       <FeaturedArticles
                title="Google Data Analytics"
               link="https://drive.google.com/file/d/1anVzhuK5ifsbLJCRcvUzfw-Y-GGNgOjs/view?usp=drive_link"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Data analytics coursework covering data preparation, exploration, analysis, visualization, and communicating findings."
               img={article3}
                       />
                       <FeaturedArticles
              title="SYNC:Machine learning Virtual internship"     
              link="https://drive.google.com/file/d/1jL3Jwm9rZhWC2VpVaYrAQ15V3vQU5TxK/view?usp=drive_link"           
-            summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+            summary="Virtual internship focused on machine learning workflows and practical exposure to model development."
             img={article4}
                       />
                       <FeaturedArticles
@@ -215,8 +211,7 @@ const articles = () => {
                
                link="https://drive.google.com/file/d/1QBtfcvXOvoW3AdIxFRrW-tHk9ixjc-qc/view?usp=drive_link"
            
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Data science internship experience centered on data exploration, analysis, and applied projects."
               
 
               img={article5}
@@ -226,46 +221,40 @@ const articles = () => {
               
               link="https://drive.google.com/file/d/1MilonQppJa_ObKCfytnei1rqhqQaEFbu/view?usp=drive_link"
          
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Coursework introducing data analysis with R, including data manipulation, statistical exploration, and visualizations."
               
               img={article6}
                       />
                                 <FeaturedArticles
               title="Google Data Analytics Capstone: Complete a Case Study"
              link="https://drive.google.com/file/d/1S9adKqflZvC5htf_wNV7DUNpQ9s2alPU/view?usp=drive_link"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Capstone coursework applying a structured data analytics process to a case study, from problem definition to communicating findings."
               img={article7}
                       />
                                 <FeaturedArticles
               title="Process Data from Dirty to Clean"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Google Data Analytics coursework focused on assessing, cleaning, and preparing datasets for trustworthy analysis."
               
               link="https://drive.google.com/file/d/1aItgH5atxNgAJSzuCv2E8N0m3637X12k/view?usp=drive_link"
               img={article8}
                       />
                                 <FeaturedArticles
               title="Share Data Through the Art of Visualization"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Google Data Analytics coursework on selecting effective visualizations and presenting data-driven insights."
               
               link="https://drive.google.com/file/d/1-DLGVfqIKQJYJeUfE2dC7Xh5RpiUTm4l/view?usp=drive_link"
               img={article9}
                       />
                                 <FeaturedArticles
               title="Ask Questions to Make Data-Driven Decisions"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Google Data Analytics coursework on framing business questions and defining analytical objectives."
               
               link="https://drive.google.com/file/d/1tCZ_jy2M6vHkuZSr6Eqb0EteXhTGZ851/view?usp=drive_link"
               img={article10}
                       />
                                 <FeaturedArticles
               title="Prepare Data for Exploration"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Google Data Analytics coursework on data sources, collection, organization, and preparing data for exploration."
               
               link="https://drive.google.com/file/d/1bNIrjQs6m7R19L3M3yqgoZNVthqDO2uu/view?usp=drive_link"
                           img={article11}
@@ -273,8 +262,7 @@ const articles = () => {
                       />
                        <FeaturedArticles
               title="HackerRank problem solving(basic)"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="HackerRank skills credential in basic problem-solving and programming challenges."
               
               link="https://drive.google.com/file/d/1zWZ0tK4hCI5-2matYasyxkqA34HxKj9G/view?usp=drive_link"
                           img={article12}
@@ -282,8 +270,7 @@ const articles = () => {
                       />
                        <FeaturedArticles
               title="HackerRank problem solving(intermediate)"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="HackerRank skills credential in intermediate-level problem-solving and algorithmic challenges."
               
               link="https://drive.google.com/file/d/1cIhVhUwyeDrUIQg6yibOLyjzrPs-9xdz/view?usp=drive_link"
                           img={article13}
@@ -291,8 +278,7 @@ const articles = () => {
                       />
                        <FeaturedArticles
               title="ICDCI:2nd workshop on cyber security"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Cybersecurity workshop participation focused on foundational security concepts and awareness."
               
               link="https://drive.google.com/file/d/1e7agA6hLYdN6JZsZuXMAUsLvrxsKXmPt/view?usp=drive_link"
                           img={article14}
@@ -300,8 +286,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="DevTown:Instagram clone"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Hands-on web development workshop focused on building an Instagram-style interface."
               
               link="https://drive.google.com/file/d/1j74sNdoE9LOBLFaafk0n6k8GvC6ky4QZ/view?usp=drive_link"
                           img={article15}
@@ -309,8 +294,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="JP Morgan :Cybersecurity Virtual Experience Program"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Virtual job simulation exploring cybersecurity tasks and scenarios in a financial services context."
               
               link="https://drive.google.com/file/d/1P1IC2Emhza7fxWp4kTiOK6K2ohgKCyIP/view?usp=drive_link"
                           img={article16}
@@ -318,8 +302,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="JP Morgan :Software Engineering Virtual Experience"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Virtual job simulation introducing software engineering workflows and practical development tasks."
               
               link="https://drive.google.com/file/d/1dX8z0AWiLFoMuTE2cCto1YU4YxPiXZWz/view?usp=drive_link"
                           img={article17}
@@ -328,8 +311,7 @@ const articles = () => {
                               
                                <FeaturedArticles
               title="Google Developers club"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Participation in developer community activities focused on technology learning and collaboration."
               
               link="https://drive.google.com/file/d/1Feys8vAxO3h7k06WmB579TO_3DsaRfSb/view?usp=drive_link"
                           img={article18}
@@ -337,8 +319,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="Skill up:Introduction to Cryptocurrency"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Introductory course on cryptocurrency concepts and related digital asset fundamentals."
               
               link="https://drive.google.com/file/d/1Ccedf56F5Xgj42y8KjB1EqKMMF8cHktX/view?usp=drive_link"
                           img={article19}
@@ -346,8 +327,7 @@ const articles = () => {
                       />
                        <FeaturedArticles
               title="Addis Coder:summer coding camp"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Summer coding program introducing programming, computational thinking, and problem solving."
               
               link="https://drive.google.com/file/d/1X9ZAD-qECJsRppxdZX3L9Pvb_xVmNqJZ/view?usp=drive_link"
                           img={article20}
@@ -355,8 +335,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="DevTown"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Software development learning experience involving hands-on coding and practical project work."
               
               link="https://drive.google.com/file/d/1t_T5RuuXHFy7Qt-rFzy8CyeETbURdzK_/view?usp=drive_link"
                           img={article21}
@@ -364,8 +343,7 @@ const articles = () => {
                       />
                                <FeaturedArticles
               title="DevTown:Backend Web Development"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              summary="Training in back-end web development concepts, server-side application logic, and APIs."
               
               link="https://drive.google.com/file/d/1T4bvKBKy2NjZSYxM5__cs0xKYa8_vkTr/view?usp=drive_link"
                           img={article22}
