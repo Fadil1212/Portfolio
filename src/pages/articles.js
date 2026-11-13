@@ -120,19 +120,65 @@ const FeaturedArticles = ({ img, title, summary, link }) => {
         </li>
     )
 }
+
+const RedHatCertificate = ({ title, code, date, image, pdf, verify, summary }) => (
+    <li className='flex flex-col overflow-hidden rounded-2xl border border-solid border-dark bg-light text-dark shadow-md dark:border-light dark:bg-dark dark:text-light'>
+      <div className='relative w-full overflow-hidden bg-white'>
+        <Image src={image} alt={`${title} – Red Hat certificate of attendance`} width={800} height={600} className='h-auto w-full object-contain' />
+      </div>
+      <div className='flex flex-1 flex-col gap-3 p-6'>
+        <div className='flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-wide'>
+          <span className='rounded-full bg-red-100 px-3 py-1 text-red-800'>Red Hat Academy</span>
+          <span className='rounded-full border border-dark/20 px-3 py-1 dark:border-light/30'>Certificate of attendance</span>
+        </div>
+        <h3 className='text-xl font-bold sm:text-lg'>{title}</h3>
+        <p className='text-sm text-dark/70 dark:text-light/70'>{code} · {date} · 40 credit hours</p>
+        <p className='text-sm leading-relaxed'>{summary}</p>
+        <div className='mt-auto flex flex-wrap gap-4 pt-2 text-sm font-semibold'>
+          <a href={verify} target='_blank' rel='noopener noreferrer' className='text-primary underline underline-offset-4 dark:text-primaryDark'>Verify on Credly ↗</a>
+          <a href={pdf} target='_blank' rel='noopener noreferrer' className='underline underline-offset-4'>View certificate PDF ↗</a>
+        </div>
+      </div>
+    </li>
+);
+
 const articles = () => {
   return (
     <>
       <Head>
-        <title>Fadil  | Certificates Page</title>
-        <meta name="description" content="any description" />
+        <title>Certificates | Fadil Mohammed Surur</title>
+        <meta name="description" content="Verified learning credentials, Red Hat Academy attendance certificates, and professional development in Linux, containers, cloud, and data analytics." />
           </Head>
           <TransitionEffect />
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
               <Layout className='pt-16'>
                   
-                  <AnimatedText text='Words Can Change The World' className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
-                  <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >Certifications</h2>
+                  <AnimatedText text='Certificates & Professional Learning' className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
+                  <h2 className='font-bold text-4xl w-full text-center my-12'>Red Hat Academy · 2026</h2>
+                  <p className='mx-auto mb-10 max-w-3xl text-center text-base text-dark/75 dark:text-light/75'>
+                    Documented hands-on training in Linux system administration and container development. Both credentials below are Red Hat certificates of attendance, not certification exam results.
+                  </p>
+                  <ul className='grid grid-cols-2 gap-8 md:grid-cols-1'>
+                    <RedHatCertificate
+                      title='Red Hat OpenShift Development I: Introduction to Containers with Podman'
+                      code='DO188 – RHA · Version 4.22'
+                      date='October 29, 2026'
+                      image='/images/certificates/red-hat-do188-attendance.png'
+                      pdf='/certificates/red-hat-do188-attendance.pdf'
+                      verify='https://www.credly.com/badges/c4e44c6c-51ad-4aa6-9e41-ef7e02642911'
+                      summary='Container image creation, Podman, persistent storage, multi-container applications, troubleshooting, and Kubernetes/OpenShift foundations.'
+                    />
+                    <RedHatCertificate
+                      title='Red Hat System Administration II'
+                      code='RH134 – RHA · Version 10'
+                      date='October 10, 2026'
+                      image='/images/certificates/red-hat-rh134-attendance.png'
+                      pdf='/certificates/red-hat-rh134-attendance.pdf'
+                      verify='https://www.credly.com/badges/a76a310f-9250-4262-9f11-9c2b2ecccf23'
+                      summary='Advanced Linux administration covering shell scripting, storage management, security, SELinux, logging, network services, and containers.'
+                    />
+                  </ul>
+                  <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >Other Certificates & Training</h2>
           <ul className='grid grid-cols-3 gap-10 lg:gap-8 md:grid-cols-1 md:gap-y-16 '> {/* Added mx-auto and max-w-screen-lg */}
             <FeaturedArticles
              title="Supervised Machine learning: Regression and classification"
