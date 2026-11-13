@@ -33,6 +33,22 @@ const Skills = () => (
       <Skill name="Git" x='-8vw' y='21vw' />
       <Skill name="LLMs / LangChain" x='-14vw' y='8vw' />
     </div>
+    <div className="mx-auto mt-12 max-w-5xl px-4 text-center">
+      <h3 className="mb-3 text-3xl font-bold dark:text-light md:text-2xl">Cloud Engineering & CI/CD</h3>
+      <p className="mx-auto mb-6 max-w-3xl text-base text-dark/75 dark:text-light/75 md:text-sm">
+        Hands-on deployment, automation, container orchestration, and resilience testing across AWS ECS and EKS.
+      </p>
+      <div className="flex flex-wrap items-center justify-center gap-3">
+        {['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'GitHub Actions', 'Amazon ECS', 'Amazon EKS', 'Amazon ECR', 'CloudFormation', 'CI/CD', 'Git'].map((tool) => (
+          <span key={tool} className="rounded-full border border-solid border-dark/20 bg-light px-4 py-2 text-sm font-semibold text-dark shadow-sm dark:border-light/30 dark:bg-dark dark:text-light">
+            {tool}
+          </span>
+        ))}
+      </div>
+      <a href="https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block font-semibold text-primary underline underline-offset-4 dark:text-primaryDark">
+        Explore my ECS & EKS CI/CD project
+      </a>
+    </div>
   </>
 )
 
