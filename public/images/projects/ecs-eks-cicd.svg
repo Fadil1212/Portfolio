@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="CI/CD pipeline from GitHub through Jenkins and ECR to AWS ECS and EKS">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1730"/><stop offset="1" stop-color="#173b55"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect width="1200" height="700" rx="24" fill="url(#bg)"/>
+<g opacity=".22" stroke="#7dd3fc" stroke-width="1"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200M0 660H1200M110 0V700M220 0V700M330 0V700M440 0V700M550 0V700M660 0V700M770 0V700M880 0V700M990 0V700M1100 0V700"/></g>
+<text x="64" y="85" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="38">One build. Two orchestrators.</text>
+<text x="64" y="125" fill="#a8c9de" font-family="Arial,sans-serif" font-size="22">Immutable, verifiable container delivery on AWS</text>
+<path d="M330 332H420M660 332H748" stroke="url(#edge)" stroke-width="7" stroke-linecap="round"/>
+<path d="M980 335V475M980 475H842M980 475H1098" fill="none" stroke="url(#edge)" stroke-width="7" stroke-linecap="round"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="68" y="260" width="260" height="144" rx="20" fill="#1c3552" stroke="#4f93c4" stroke-width="3"/>
+<text x="198" y="320" fill="#fff" font-size="29" font-weight="700">GitHub</text><text x="198" y="357" fill="#c3d6e8" font-size="19">Pull request + CI</text>
+<rect x="420" y="260" width="240" height="144" rx="20" fill="#1c3552" stroke="#4f93c4" stroke-width="3"/>
+<text x="540" y="320" fill="#fff" font-size="29" font-weight="700">Jenkins</text><text x="540" y="357" fill="#c3d6e8" font-size="19">Test + build</text>
+<rect x="748" y="260" width="278" height="144" rx="20" fill="#183e49" stroke="#5bd5c5" stroke-width="3"/>
+<text x="887" y="320" fill="#fff" font-size="29" font-weight="700">Amazon ECR</text><text x="887" y="357" fill="#b3ede5" font-size="19">Immutable image</text>
+<rect x="715" y="508" width="180" height="104" rx="18" fill="#253d61" stroke="#78a6f6" stroke-width="3"/>
+<text x="805" y="553" fill="#fff" font-size="27" font-weight="700">ECS</text><text x="805" y="584" fill="#bed2ed" font-size="17">Fargate</text>
+<rect x="950" y="508" width="180" height="104" rx="18" fill="#302b5b" stroke="#aa94ff" stroke-width="3"/>
+<text x="1040" y="553" fill="#fff" font-size="27" font-weight="700">EKS</text><text x="1040" y="584" fill="#d4cbff" font-size="17">Kubernetes</text>
+</g>
+<text x="64" y="642" fill="#d5f5ff" font-family="Arial,sans-serif" font-size="22">5 tests passed   •   v2.0.0   •   Verified digest   •   Recovery + scaling</text>
+</svg>
