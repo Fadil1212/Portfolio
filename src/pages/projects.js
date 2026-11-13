@@ -169,7 +169,7 @@ const projects = () => {
       <>
           <Head>
               <title>Fadil| Projects Page</title>
-              <meta name="description" content="any description" />
+              <meta name="description" content="Explore cloud CI/CD, AWS ECS/EKS, data analytics, machine learning, AI, and engineering projects by Fadil Mohammed Surur." />
 
           </Head>
           <TransitionEffect />
@@ -188,6 +188,16 @@ const projects = () => {
                               link="https://gridlens-blond.vercel.app/"
                               github="https://github.com/Fadil1212/GridLens"
                               type="Data Analytics & Demand Forecasting"
+                          />
+                      </div>
+                      <div className='col-span-12'>
+                          <FeaturedProject
+                              title="AWS ECS & EKS CI/CD Pipeline"
+                              img="/images/projects/ecs-eks-cicd.svg"
+                              summary="Designed and validated an end-to-end CI/CD workflow using GitHub Actions, Jenkins, Docker, and Amazon ECR to deploy one immutable image to ECS Fargate and EKS. Released v2.0.0 with 5 passing automated tests, verified identical build provenance across both platforms, and demonstrated rollback and scaling during controlled failure experiments. The lab infrastructure was safely decommissioned after verification."
+                              link="https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline"
+                              github="https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline"
+                              type="Cloud Engineering, DevOps & CI/CD"
                           />
                       </div>
                       <div className='col-span-12'>
